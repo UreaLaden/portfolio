@@ -24,11 +24,10 @@ For each of the features listed below, make an estimate of the time it will take
 ```
 Number and name of feature: Deployment
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 4hrs
+Start time: 9:05
 
-Start time: 12:05
-
-Finish time: _____
+Finish time: 3:00
 
 Actual time needed to complete: _____
 ```
