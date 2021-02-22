@@ -19,28 +19,34 @@ section, article {
 
 .image {
     display: inline-block;
-    border: 0;
+    border: 0;   
+    box-shadow: 10px 10px 5px black;
 }
 
     .image img {
         display: block;
         width: 100%;
+        box-shadow: 10px 10px 5px black;
     }
 
     .image.avatar48 {
-        width: 48px;
-        height: 48px;
+        width: auto;
+        height: auto;
         background: #f00;
+
     }
 
         .image.avatar48 img {
-            width: 48px;
-            height: 48px;
+            width: auto;
+            height: auto;
         }
 
     .image.fit {
         display: block;
-        width: 100%;
+        width: auto;
+        height:auto;
+        box-shadow: 10px 10px 5px rgb(255, 255, 255);
+        
     }
 
     .image.featured {
@@ -154,7 +160,8 @@ form select {
 }
 
 form textarea {
-    min-height: 14em;
+    min-height: 20em;
+    min-width: 30em;
 }
 
 form ::-webkit-input-placeholder {
@@ -253,8 +260,9 @@ button,
 /* Item */
 
 .item {
-    box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
+    /* box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05); */
     margin-bottom: 40px;
+    box-shadow: 10em 10em 5em 0 black;
 }
 
     .item header {

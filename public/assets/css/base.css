@@ -88,7 +88,8 @@ input, select, textarea {
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #888;
+		color: whitesmoke;
+		text-shadow: 2px 2px black;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -112,7 +113,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
-		color: #666;
+		color: whitesmoke;
 		line-height: 1.5em;
 	}
 
@@ -131,11 +132,13 @@ input, select, textarea {
 	}
 
 		h2.alt {
-			color: #888;
+			color: whitesmoke;
+			background-color: rgba(77, 75, 75, 0.7);
+			
 		}
 
 			h2.alt strong {
-				color: #666;
+				color: whitesmoke
 			}
 
 	h3 {
@@ -144,10 +147,12 @@ input, select, textarea {
 
 	header {
 		margin: 0 0 2em 0;
+		
 	}
 
 		header > p {
 			margin: 1em 0 0 0;
+			background-color: rgba(77, 75, 75, 0.7);
 		}
 
 	footer {
@@ -156,7 +161,7 @@ input, select, textarea {
 
 	strong, b {
 		font-weight: 300;
-		color: #666;
+		color:whitesmoke;
 	}
 
 	em, i {
